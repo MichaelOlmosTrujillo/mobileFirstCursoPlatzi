@@ -240,3 +240,29 @@ header img{
     color: var(--warm-black);
     font-weight: 300;
 }
+.currency-table--container table{
+    margin-bottom: 5rem;
+}
+.currency-table--date-comisiones{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: var(--secondary-blue);
+    border-radius: 8px;
+    padding: 8px;
+}
+.currency-table--date-comisiones p{
+    
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    font-weight: 300;
+}
+.main-currency-table .currency-table--title-comisiones{
+     margin: 3rem auto;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
