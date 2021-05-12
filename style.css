@@ -457,15 +457,16 @@ header img {
 .plans-container--card{
     position: relative;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
-    height: 250px;
-    margin: 50px 50px 0;
+    height: 240px;
+    margin: 50px 5px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
     scroll-snap-align: center;
+
 }
 
 .recommended{
@@ -501,7 +502,7 @@ header img {
     font-size: 1.2rem;
     font-weight: 300;
     top: -7px;
-    left: 65px;
+    left: 20px;
     font-weight: bold;
 }
 .plan-card--saving{
@@ -535,4 +536,28 @@ header img {
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
-
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+footer section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+footer .left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+} 
+.left li{
+    margin: 10px 0;
+}
+.left a{
+    text-decoration: none;
+    color: var(--just-white);
+} 
